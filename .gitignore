@@ -1,0 +1,41 @@
+# 本机配置与密钥；仓库只保留配置模板。
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python 与 IDE
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+
+# 本地数据、备份与运行产物
+.work/
+backups/
+reports/
+logs/
+**/logs/
+*.log
+*.dump
+*.db
+*.sqlite*
+*.zip
+deploy/local/runtime.json
+deploy/local/frontend-runtime.json
+dist/
+build/
+*.egg-info/
+.DS_Store
+Thumbs.db
